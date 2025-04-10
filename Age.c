@@ -8,5 +8,6 @@ int main(){
 
     printf("age is %d \n", age);
     
+    printf("Some Changes for GH");
     return 0;
 }
