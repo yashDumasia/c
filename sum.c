@@ -10,9 +10,9 @@ int main(){
 
     scanf("%d",&b);
 
-    int sum = a+b;
+    
 
-    printf("Sum of a and b is %d \n",sum);
+    printf("Sum of a and b is %d \n",a+b);
 
     return 0;
 
