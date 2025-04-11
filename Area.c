@@ -4,13 +4,13 @@
 
 int main(){
 
-    int side;
+    float side;
     
     printf("Enter Side : ");
     
-    scanf("%d", &side);
+    scanf("%f", &side);
 
-    printf("Area of square is = %d \n", side*side);
+    printf("Area of square is = %f \n", side*side);
     
     return 0;
 }
