@@ -1,7 +1,9 @@
 #include<stdio.h>
 int main(){
-    
-printf("%d \n",18%5);    
+   
+
+
+    printf("%d \n",4 * 3 / 6 * 2);    
     
     
     
