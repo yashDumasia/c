@@ -3,7 +3,7 @@ int main(){
    
 
 
-    printf("%d \n",4 * 3 / 6 * 2);    
+    printf("%d \n",5*(24/2)*3);    
     
     
     
