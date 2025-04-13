@@ -1,6 +1,7 @@
 #include<stdio.h>
 int main(){
 
+    // if even output is = 1 or if odd output is = 0 
     int x;
 
     printf("enter any number : ");
