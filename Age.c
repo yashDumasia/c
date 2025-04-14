@@ -15,5 +15,6 @@ int main(){
         printf("not adult \n");
     }
     
+    printf  ("thank you \n");
     return 0;
 }
