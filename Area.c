@@ -2,15 +2,14 @@
 
 // area of square
 
-int main(){
+int main() {
+  float side;
 
-    float side;
-    
-    printf("Enter Side : ");
-    
-    scanf("%f", &side);
+  printf("Enter Side : ");
 
-    printf("Area of square is = %f \n", side*side);
-    
-    return 0;
+  scanf("%f", &side);
+
+  printf("Area of square is = %f \n", side * side);
+
+  return 0;
 }

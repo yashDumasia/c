@@ -1,20 +1,19 @@
 #include <stdio.h>
 
-int main(){
+int main() {
+  int age;
+  printf("Enter age : ");
 
-    int age;
-    printf("Enter age : ");
+  scanf("%d", &age);
 
-    scanf("%d", &age);
+  if (age >= 18) {
+    printf("adult \n");
+  }
 
-    if (age>=18)
-    {printf("adult \n");}
-   
-    else
-    {
-        printf("not adult \n");
-    }
-    
-    printf  ("thank you \n");
-    return 0;
+  else {
+    printf("not adult \n");
+  }
+
+  printf("thank you \n");
+  return 0;
 }
