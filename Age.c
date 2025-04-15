@@ -15,7 +15,7 @@ int main() {
   }
 
   else {
-    printf("not adult \n");
+    printf("child \n");
   }
 
   printf("thank you \n");
