@@ -10,6 +10,10 @@ int main() {
     printf("adult \n");
   }
 
+  else if (age < 18 && age > 12) {
+    printf("teenager \n");
+  }
+
   else {
     printf("not adult \n");
   }
