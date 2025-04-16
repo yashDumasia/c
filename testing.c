@@ -1,13 +1,9 @@
-#include<stdio.h>
-int main(){
-   
-    int a = 1;
+#include <stdio.h>
+int main() {
+  int i = 1;
 
-    int b = 5;
+  printf("%d \n", --i);
 
-    a -= b ;
-
-    printf("%d \n",a);    
-    
-    return 0;
+  printf("%d \n", --i);
+  return 0;
 }
