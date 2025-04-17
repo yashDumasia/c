@@ -2,6 +2,7 @@
 int main() {
   int n;
 
+  // enter any even number if you enter odd number a loop will close.
   do {
     printf("enter any even number : ", n);
     scanf("%d", &n);
