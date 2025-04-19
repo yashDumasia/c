@@ -1,7 +1,7 @@
 #include <stdio.h>
 int main() {
   int n;
-  printf("Enter any number : %d", n);
+  printf("Enter any number : ", n);
   scanf("%d", &n);
 
   int count = 0;
