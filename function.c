@@ -1,10 +1,16 @@
 #include <stdio.h>
-void hello();
-void goodbye();
+void printTable(int n);
 int main() {
-  hello();
-  goodbye();
+  int n;
+  printf("enter any number : ");
+  scanf("%d", &n);
+
+  printTable(n);
+
   return 0;
 }
-void hello() { printf("hello!\n"); }
-void goodbye() { printf("good bye.\n"); }
+void printTable(int n) {
+  for (int i = 1; i <= 10; i++) {
+    printf("%d*%d=%d \n", n, i, n * i);
+  }
+}
