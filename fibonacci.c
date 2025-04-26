@@ -5,7 +5,7 @@ int main() {
   printf("enter n : ");
   scanf("%d", &n);
 
-  printf("%dth term of fibonacci serise is : %d\n", n, fib(n - 1));
+  printf("%dth term of fibonacci serise is : %d\n", n, fib(n));
 
   return 0;
 }
