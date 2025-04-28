@@ -1,13 +1,11 @@
 #include <stdio.h>
 int main() {
-  int age = 17;
-  int *ptr = &age;
+  // pointer to pointer
+  int i = 5;
+  int *ptr = &i;
+  int **pptr = &ptr;
 
-  // value
-
-  printf("%d\n", age);
-  printf("%d\n", *ptr);
-  printf("%d\n", *(&age));
+  printf("%d \n", **pptr);
 
   return 0;
 }
