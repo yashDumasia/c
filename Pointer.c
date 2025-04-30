@@ -1,17 +1,20 @@
 #include <stdio.h>
 int main() {
   int age = 17;
+
+  int age1 = 18;
+
   int *ptr = &age;
 
-  printf("ptr value = %u\n", ptr);
+  int *ptr1 = &age1;
 
-  ptr++;
+  printf("ptr = %u\n", ptr);
 
-  printf("ptr value = %u\n", ptr);
+  printf("ptr1 = %u\n", ptr1);
 
-  ptr--;
+  printf("differnce = %u\n", ptr - ptr1);
 
-  printf("ptr value = %u\n", ptr);
-
+  ptr1 = &age;
+  printf("comparition = %u\n", ptr == ptr1);
   return 0;
 }
