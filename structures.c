@@ -8,12 +8,12 @@ struct student {
 };
 
 int main() {
-  struct student y;
-  y.roll = 3;
-  y.cgpa = 9.5;
-  strcpy(y.name, "Yash");
-  printf("student name = %s\n", y.name);
-  printf("student roll no. = %d\n", y.roll);
-  printf("student cgpa = %f\n", y.cgpa);
+  struct student arr[100];
+  arr[0].roll = 3;
+  arr[0].cgpa = 9.5;
+  strcpy(arr[0].name, "YASH");
+  printf("student name = %s\n", arr[0].name);
+  printf("student roll no. = %d\n", arr[0].roll);
+  printf("student cgpa = %f\n", arr[0].cgpa);
   return 0;
 }
