@@ -1,22 +1,14 @@
 #include <stdio.h>
 #include <string.h>
-
-struct student {
+typedef struct ComputerEngineeringStudent {
   int roll;
-  char name[100];
   float cgpa;
-};
-
-void printInfo(struct student y);
-
+  char name[100];
+} ces;
 int main() {
-  struct student y = {3, "YASH DUMASIA", 9.7};
-  printInfo(y);
-
+  ces y1 = {35, 9.8, "YASH DUMASIA"};
+  printf("%s\n", y1.name);
+  printf("%d\n", y1.roll);
+  printf("%f\n", y1.cgpa);
   return 0;
-}
-void printInfo(struct student y) {
-  printf("NAME IS : %s\n", y.name);
-  printf("ROLL NO. IS : %d\n", y.roll);
-  printf("CGPA IS : %f\n", y.cgpa);
 }
