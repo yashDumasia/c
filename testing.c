@@ -1,10 +1,8 @@
-#include <math.h>
 #include <stdio.h>
 
 int main() {
-  int base = 5, exponent = 2;
-  double result = pow(base, exponent);
-
-  printf("%.0f\n", base, exponent, result);
+  printf("int : %d\n", sizeof(int));
+  printf("float : %d\n", sizeof(float));
+  printf("char : %d\n", sizeof(char));
   return 0;
 }
