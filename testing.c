@@ -3,7 +3,7 @@
 
 int main() {
   int *ptr;
-  ptr = (int *)malloc(5 * sizeof(int));
+  ptr = (int *)calloc(5, sizeof(int));
   ptr[0] = 1;
   ptr[1] = 5;
   ptr[2] = 10;
