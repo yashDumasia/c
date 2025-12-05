@@ -1,21 +1,22 @@
 #include <stdio.h>
-float max(float *a, float *b);
-int main() {
-  float a, b;
-  printf("enter first number  : ");
-  scanf("%f", &a);
-
-  printf("enter second number  : ");
-  scanf("%f", &b);
-
-  printf("Maximum number is : %f\n", max(&a, &b));
-
-  return 0;
-}
-float max(float *a, float *b) {
-  if (*a > *b) {
-    return *a;
-  } else {
-    return *b;
+int main()
+{
+  int n, i;
+  printf("How many number you want to enter : ");
+  scanf("%d", &n);
+  int a[n];
+  for (i = 0; i < n; i++)
+  {
+    printf("Enter a Number[%d] : ", i + 1);
+    scanf("%d", &a[i]);
   }
+  int max = a[0];
+  for (i = 0; i < n; i++)
+  {
+    if (max <= a[i])
+    {
+      max = a[i];
+    }
+  }
+  printf("A Maximum Number is : %d\n", max);
 }
